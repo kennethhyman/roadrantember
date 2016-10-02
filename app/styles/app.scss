@@ -1,0 +1,26 @@
+@import "bootstrap";
+
+
+body{
+	padding-top: 10px;
+}
+
+.jumbotron{
+
+	.small {
+		p{
+			font-size: 1rem;
+		}
+	}
+}
+
+.drivers{
+		list-style-position:inside;
+		border: 1px solid black;
+}
+.expand{
+	list-style-position:inside;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	margin-bottom: 1.5%;
+}

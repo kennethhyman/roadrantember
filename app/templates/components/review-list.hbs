@@ -1,0 +1,14 @@
+{{#if isExpanded}}
+	<div {{action 'toggleExpand'}} class="expand">
+	<table class="table table-striped">
+	{{#each driver.reviews as |review|}}	
+		<tr>
+			<td>{{review.description}}</td>
+		</tr>
+	{{/each}}
+	</table>
+	<i class="fa fa-arrow-circle-up"></i>
+	</div>
+{{else}}
+	<div {{action 'toggleExpand'}}class="expand"><i class="fa fa-arrow-circle-down"></i></div>
+{{/if}}

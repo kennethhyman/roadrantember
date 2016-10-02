@@ -1,0 +1,11 @@
+<div class="jumbotron text-center">
+<h1><strong>Driving Report</strong></h1>
+
+{{#each model as |driver|}}
+	<div class="drivers">
+		<h2>{{driver.licensePlate}} 	Asshole: 100%</h2>
+	</div>
+	{{review-list driver=driver}}
+{{/each}}
+
+</div>
